@@ -6,7 +6,6 @@ main {
   background: $color-white;
   display: flex;
   justify-content: center;
-  /* Centraliza os itens horizontalmente */
   align-items: center;
 
   .tools-box {
@@ -16,11 +15,8 @@ main {
     margin-top: 50px;
     justify-content: center;
     grid-auto-flow: dense;
-
-    // Definir um número de colunas fixo e ajustável com media queries
     grid-template-columns: repeat(4, 1fr);
 
-    // Reduzir o número de colunas conforme o tamanho da tela diminui
     @media screen and (max-width: 900px) {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -28,8 +24,8 @@ main {
     @media screen and (max-width: 700px) {
       grid-template-columns: repeat(2, 1fr);
     }
-
-    @media screen and (max-width: 500px) {
+    
+    @media screen and (max-width: 470px) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
