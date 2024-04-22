@@ -13,7 +13,7 @@ export default function Project ({title, text, link, image}: {title: string, tex
           <p>
             {text}
           </p>
-          <Image src={image}/>
+          <Image src={image} alt=""/>
         </div>
         <GitHubButton link={link}></GitHubButton>
       </div>
