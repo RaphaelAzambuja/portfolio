@@ -43,16 +43,19 @@ h2 {
   padding: 3px 0;
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 900px) {
+    margin-bottom: 30px;
+  }
 }
 
 p {
   width: 500px;
   font-size: $font-3;
-  margin-top: 40px;
 
   @media screen and (max-width: 900px) {
     font-size: $font-5;
     width: 90%;
-    margin-top: 50px;
   }
 }
