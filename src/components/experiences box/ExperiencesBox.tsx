@@ -1,4 +1,3 @@
-import Experience from './experience/Experience';
 import "./ExperienceBox.scss";
 
 export default function ExperienceBox() {
@@ -10,14 +9,13 @@ export default function ExperienceBox() {
       jobTitle: 'Desenvolvedor Web',
       description: 'Responsável pelo desenvolvimento de aplicativos web utilizando tecnologias modernas.',
     },
-    // Adicione mais objetos de experiência conforme necessário
   ];
 
   return (
     <main className="experience-box-main">
       <h2 className="experience-box-title">Minhas experiências profissionais</h2>
       <div className="experience-box">
-        {experiencesData.map((experience, index) => (
+        {/* {experiencesData.map((experience, index) => (
           <Experience
             key={index}
             img={experience.img}
@@ -26,7 +24,7 @@ export default function ExperienceBox() {
             jobTitle={experience.jobTitle}
             description={experience.description}
           />
-        ))}
+        ))} */}
       </div>
     </main>
   );
