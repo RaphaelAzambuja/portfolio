@@ -5,7 +5,7 @@ import "./ProjectBox.scss"
 export default function ProjectBox () {
   var projectValues = [
     { title: "Marujo Art's Tattoo", text: "Uma landing page para expor o trabalho no estudio de tatuagens e piercings do meu irmão", link: "#", image: marujoArtImage},
-    { title: "APIs OlíSaúde", text: "Teste usado para testar e aprimorar minhas habilidades com Java e Springboot", link: "https://github.com/RaphaelAzambuja/teste-olisaude", image: marujoArtImage},
+    { title: "APIs OlíSaúde", text: "Teste usado para testar e aprimorar minhas habilidades com Laravel e Next", link: "https://github.com/RaphaelAzambuja/teste-olisaude", image: marujoArtImage},
     { title: "Service-Desk", text: "um app para gerenciar chamados de helpdesk e servicedesk", link: "https://github.com/RaphaelAzambuja/teste-olisaude", image: marujoArtImage},
   ];
   return (

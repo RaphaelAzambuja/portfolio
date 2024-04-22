@@ -23,14 +23,20 @@ button {
     margin-left: 5px;
   }   
 
-  // p {
-  //   width: 75%;
-  // }
+  p {
+    width: 75%;
+    color: $color-60;
+  }
 
   &:hover {
     color: $color-10;
     background: $color-30;
     font-weight: 700;
+  
+    p {
+      color: $color-10;
+    }
+  
   }
 
   &:active {
