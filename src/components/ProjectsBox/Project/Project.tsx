@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import GitHubButton from '../../Buttons/GitHubButton/GitHubButton';
 import "./Project.scss"
 
@@ -12,7 +13,7 @@ export default function Project ({title, text, link, image}: {title: string, tex
           <p>
             {text}
           </p>
-          <img src={image}/>
+          <Image src={image}/>
         </div>
         <GitHubButton link={link}></GitHubButton>
       </div>
