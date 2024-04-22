@@ -2,6 +2,7 @@ import AbilitiesBox from "@/components/AbilitiesBox/AbilitiesBox";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import Presentation from "@/components/Presentation/Presentation";
+import ProjectBox from "@/components/ProjectsBox/ProjectBox";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Presentation />
       <AbilitiesBox />
+      <ProjectBox />
       <Footer />
     </>
   );

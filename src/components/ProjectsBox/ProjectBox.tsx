@@ -1,4 +1,4 @@
-import marujoArtImage from '../../assets/marujotattoo.png';
+import marujoArtImage from '../../../assets/marujotattoo.png';
 import Project from './Project/Project';
 import "./ProjectBox.scss"
 
@@ -10,17 +10,15 @@ export default function ProjectBox () {
   ];
   return (
     <>
-      <main className="project-box-main">
-        <div className="text-box-main">
-          <h2 className='title-box-main'>Nem só de ferramentas viverá o produto!</h2>
-          <p className='text-box-main'>Em projetos utilizo os meus conhecimentos mais conceituais, além da prática.</p>
-        </div>
-        <div className="projects">
-        {projectValues.map((project, index) => (
-          <Project key={index} title={project.title} text={project.text} link={project.link} image={project.image} />
-        ))}
-        </div>
-      </main>
+      <div className="text-box-main">
+        <h2>Nem só de ferramentas viverá o produto!</h2>
+        <p>Em projetos utilizo os meus conhecimentos mais conceituais, além da prática.</p>
+      </div>
+      <div className="projects">
+      {projectValues.map((project, index) => (
+        <Project key={index} title={project.title} text={project.text} link={project.link} image={project.image} />
+      ))}
+      </div>
     </>
   )
 

@@ -1,23 +1,21 @@
 import GitHubButton from '../../Buttons/GitHubButton/GitHubButton';
 import "./Project.scss"
 
-export default function Project ({title, text, link, image}: {title: String, text: String, link: String, image: any}) {
+export default function Project ({title, text, link, image}: {title: string, text: string, link: string, image: any}) {
   return (
     <>
-      <main className="project-main">
-        <div className="project">
-          <div className="text">
-            <h3 className="title">
-              {title}
-            </h3>
-            <p className="content">
-              {text}
-            </p>
-            <img className='projectImage' src={image}/>
-          </div>
-          <GitHubButton link={link}></GitHubButton>
+      <div className="project">
+        <div className="text">
+          <h3>
+            {title}
+          </h3>
+          <p>
+            {text}
+          </p>
+          <img src={image}/>
         </div>
-      </main>
+        <GitHubButton link={link}></GitHubButton>
+      </div>
     </>
   )
 }

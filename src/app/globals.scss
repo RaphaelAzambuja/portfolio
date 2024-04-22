@@ -80,6 +80,7 @@ h2 {
 p {
   color: $color-10;
   font-size: $font-4;
+  margin: 0;
   font-weight: 500;
 
   @media screen and (max-width: 900px) {
