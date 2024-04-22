@@ -30,7 +30,7 @@ export default function AbilitiesBox() {
       
       <div className="tools-box">
         {icons.map((item, index) => (
-          <Ability tool={item.icon} name={item.name} />
+          <Ability key={index} tool={item.icon} name={item.name} />
         ))}
       </div>
     </main>
