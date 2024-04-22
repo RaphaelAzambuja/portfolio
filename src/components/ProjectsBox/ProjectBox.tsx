@@ -1,4 +1,4 @@
-import marujoArtImage from '../../../assets/marujotattoo.png';
+import marujoArtImage from '../../../assets/marujoartstattoo.png';
 import Project from './Project/Project';
 import "./ProjectBox.scss"
 
