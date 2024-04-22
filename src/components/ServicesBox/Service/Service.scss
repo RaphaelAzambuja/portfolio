@@ -1,0 +1,33 @@
+@import '../../../index.scss';
+
+.service {
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+  background: $color-60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $color-white;
+  box-shadow: $box-shadow;
+  
+  .service-name {
+    width: 50%;
+    padding: 5px 0;
+    height: fit-content;
+    border-radius: 3px;
+    background: $color-30;
+    color: $color-60;
+    font-weight: 600;
+    position: relative;
+    transform: translateY(-15px);
+  }
+
+  .text {
+    width: 90%;
+    height: 100%;
+    font-size: $font-3;
+    font-weight: 600;
+  }
+}
+        

@@ -1,0 +1,12 @@
+@import '../../index.scss';
+
+.service-box-main {
+  height: fit-content;
+  margin: 100px 0;
+
+  .service-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}

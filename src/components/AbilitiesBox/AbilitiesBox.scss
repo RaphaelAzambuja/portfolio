@@ -1,0 +1,45 @@
+@import '../../app/globals.scss';
+
+main {
+  width: 100%;
+  height: fit-content;
+  background: $color-white;
+  display: flex;
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
+  align-items: center;
+
+  .tools-box {
+    width: fit-content;
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    grid-auto-flow: dense;
+
+    // Definir um número de colunas fixo e ajustável com media queries
+    grid-template-columns: repeat(4, 1fr);
+
+    // Reduzir o número de colunas conforme o tamanho da tela diminui
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 700px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 500px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  h2 {
+    color: $color-30;
+    width: 500px;
+
+    @media screen and (max-width: 900px) {
+      width: 90%;
+    }
+  }
+}

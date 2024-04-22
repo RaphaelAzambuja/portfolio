@@ -1,0 +1,25 @@
+@import "../../index.scss";
+
+.experiences-box-main {
+  height: fit-content;
+  padding: 100px 0;
+  background: $color-white;
+  
+  .experiences-box-title {
+    font-size: $font-2;
+    color: $color-30;
+    font-weight: 600;
+  }
+  
+  .experiences-box {
+    width: 1100px;
+    height: fit-content;
+    padding: 20px 0;
+    background: $color-60;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

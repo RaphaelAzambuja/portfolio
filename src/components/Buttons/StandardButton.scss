@@ -1,0 +1,41 @@
+@import '../../index.scss';
+.main-button {
+
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-10;
+  border: none;
+  border-radius: 5px;
+  font-size: $font-3;
+  font-weight: 700;
+  color: $color-60;
+  cursor: pointer;
+  transition: ease 0.1s;
+
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }   
+
+  p {
+    width: 75%;
+  }
+
+  &:hover {
+    color: $color-10;
+    background: $color-30;
+    font-weight: 700;
+  }
+
+  &:active {
+    transform: scale(1.03);
+  }
+}

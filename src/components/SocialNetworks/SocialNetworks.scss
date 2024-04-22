@@ -1,0 +1,26 @@
+@import '../../app/globals.scss'; 
+
+.contacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	gap: 10px;
+
+	i { 
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	a {
+		color: $color-10;
+		font-size: 25px;
+		transition: linear .1s;
+		cursor: pointer;
+		
+		&:hover {
+			color: $color-30;
+		}
+	}
+}
