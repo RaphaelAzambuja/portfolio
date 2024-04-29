@@ -1,11 +1,11 @@
-import { SiAngular, SiInertia, SiLivewire, SiPhp } from 'react-icons/si';
+import { SiAngular, SiInertia, SiPhp } from 'react-icons/si';
 import { IoLogoSass } from 'react-icons/io';
 import { FaBootstrap, FaDocker, FaLaravel, FaLinux, FaNodeJs, FaReact } from 'react-icons/fa';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { BiLogoMongodb, BiLogoPostgresql } from 'react-icons/bi';
-import './AbilitiesBox.scss';
+import './Abilities.scss';
 
-export default function AbilitiesBox() {
+export default function Abilities() {
   const icons = [
     { icon: <SiPhp />, name: 'PHP' },
     { icon: <FaLaravel />, name: 'Laravel' },

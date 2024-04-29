@@ -1,5 +1,5 @@
 import './Mailer.scss';
-import StandardButton from '../Buttons/StandardButton';
+import StandardButton from '../buttons/StandardButton';
 import { IoMdSend } from 'react-icons/io';
 
 export default function Mailer() {

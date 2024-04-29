@@ -1,7 +1,7 @@
 import "./ExperienceBox.scss";
 
-export default function ExperienceBox() {
-  const experiencesData = [
+export default function Experiences() {
+  const values = [
     {
       img: 'caminho/para/imagem1.jpg',
       date: 'Janeiro 2020 - Presente',

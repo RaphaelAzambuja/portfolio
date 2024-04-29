@@ -1,6 +1,5 @@
 import SocialNetworks from "../SocialNetworks/SocialNetworks";
 
-// import './Footer.scss';
 export default function Footer() {
     return(
         <>

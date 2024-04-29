@@ -1,16 +1,17 @@
-import AbilitiesBox from "@/components/AbilitiesBox/AbilitiesBox";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+import Abilities from "@/components/abilities/Abilities";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
 import Presentation from "@/components/Presentation/Presentation";
-import ProjectBox from "@/components/ProjectsBox/ProjectBox";
+import Projects from "@/components/Projects/Projects";
 import "./globals.scss"
+
 export default function Home() {
   return (
     <>
       <Header />
       <Presentation />
-      <AbilitiesBox />
-      {/* <ProjectBox /> */}
+      <Abilities />
+      <Projects />
       <Footer />
     </>
   );
