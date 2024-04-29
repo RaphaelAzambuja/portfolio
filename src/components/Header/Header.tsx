@@ -21,7 +21,7 @@ export default function Header() {
 					<RxHamburgerMenu className="hamburger-icon" onClick={toggleMenu} />
 			)}
 
-			<header className={`w-100 h-100 d-flex justify-content-center border shadow-sm bg-white pt-3 ${menuOpen ? 'open' : '' }`}>
+			<header className={`w-100 position-fixed top-0 z-3 d-flex justify-content-center border shadow-sm bg-white pt-3 ${menuOpen ? 'open' : '' }`}>
 				<div className="container">
 					<nav className="d-flex justify-content-center gap-5">
 						<div>
