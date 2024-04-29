@@ -34,7 +34,7 @@ export default function AbilitiesBox() {
               <div className="col-4 col-sm-4 col-md-3 col-lg-2" key={index}>
                 <div className="tool w-100 d-flex flex-column justify-content-center rounded align-items-center">
                   <div className="name rounded">{item.name}</div>
-                  <div className="icon">{item.icon}</div>
+                  <div className="icon d-flex py-4">{item.icon}</div>
                 </div>
               </div>
             ))}
