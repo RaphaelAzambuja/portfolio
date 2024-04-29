@@ -5,6 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import SocialNetworks from '../SocialNetworks/SocialNetworks';
 import './Header.scss';
+import Link from 'next/link';
 
 export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -26,12 +27,12 @@ export default function Header() {
 					<nav className="d-flex justify-content-center gap-5">
 						<div>
 							<ul className="d-flex list-unstyled gap-3">
-								<li className="px-3 py-1 rounded">Home</li>
-								<li className="px-3 py-1 rounded">Ferramentas</li>
-								<li className="px-3 py-1 rounded">Projetos</li>
-								<li className="px-3 py-1 rounded">Experiências</li>
-								<li className="px-3 py-1 rounded">Serviços</li>
-								<li className="px-3 py-1 rounded">Contato</li>
+								<li className="px-1 py-1 fs-5 rounded"><Link className='px-2 py-1 rounded' href="#home">Home</Link></li>
+								<li className="px-1 py-1 fs-5 rounded"><Link className='px-2 py-1 rounded' href="#ferramentas">Ferramentas</Link></li>
+								<li className="px-1 py-1 fs-5 rounded"><Link className='px-2 py-1 rounded' href="#projetos">Projetos</Link></li>
+								<li className="px-1 py-1 fs-5 rounded"><Link className='px-2 py-1 rounded' href="#experiencias">Experiências</Link></li>
+								<li className="px-1 py-1 fs-5 rounded"><Link className='px-2 py-1 rounded' href="#servicos">Serviços</Link></li>
+								{/* <li className="px-3 py-1 fs-5 rounded"><Link className='px-1 py-1 rounded' href="#contato">Contato</Link></li> */}
 							</ul>
 						</div>
 
