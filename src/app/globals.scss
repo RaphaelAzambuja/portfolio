@@ -1,89 +1,30 @@
 $color-60: #EEE5E7;
 $color-30: #DD4814;
 $color-10: #261B23;
-$color-white: #fff;
-$box-shadow: 0 0 10px #261b2350;
-
-$font-title: 60px;
-$font-1: 40px;
-$font-2: 30px;
-$font-3: 20px;
-$font-4: 18px;
-$font-5: 16px;
-
-* {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  text-align: center;
-  outline: none;
-}
 
 body {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   background: $color-60;
-  font-size: $font-3;
-
-  @media screen and (max-width: 1000px) {
-    font-size: $font-4;
-  }
-
-  @media screen and (max-width: 500px) {
-    font-size: $font-5;
-  }
-}
-
-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 100px 0;
-  padding: 100px 0;
+  color: $color-10;
 }
 
 h1 {
+  font-size: 60px;
   color: $color-30;
-  font-size: $font-title;
-
-  @media screen and (max-width: 900px) {
-    font-size: $font-1;
-  }
-
-  @media screen and (max-width: 500px) {
-    font-size: $font-2;
-  }
 }
 
-h2 {
-  color: $color-10;
-  font-size: $font-2;
-  font-weight: 800;
-
-  @media screen and (max-width: 900px) {
-    font-size: $font-2;
-  }
-
-  @media screen and (max-width: 500px) {
-    font-size: $font-3;
-  }
-}
-
-p {
-  color: $color-10;
-  font-size: $font-4;
-  margin: 0;
+li{
   font-weight: 500;
+  
+  &:hover {
+    background: $color-60;
+    color: $color-30;
+  }
+}
 
-  @media screen and (max-width: 900px) {
-    font-size: $font-5;
+a {
+  color: $color-10;
+
+  &:hover {
+    color: $color-30;
   }
 }

@@ -1,6 +1,11 @@
+'use client'
+
 import marujoArtImage from '../../../assets/marujoartstattoo.png';
 import Project from './Project/Project';
-import "./ProjectBox.scss"
+// import "./ProjectBox.scss"
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function ProjectBox () {
   var projectValues = [
@@ -14,11 +19,13 @@ export default function ProjectBox () {
         <h2>Nem só de ferramentas viverá o produto!</h2>
         <p>Em projetos utilizo os meus conhecimentos mais conceituais, além da prática.</p>
       </div>
-      <div className="projects">
-      {projectValues.map((project, index) => (
-        <Project key={index} title={project.title} text={project.text} link={project.link} image={project.image} />
-      ))}
-      </div>
+      <Carousel>
+        {projectValues.map((project, index) => (
+          <Carousel.Item key={index}>
+            <Project title={project.title} text={project.text} link={project.link} image={project.image} />
+          </Carousel.Item>
+        ))}
+      </Carousel>
     </>
   )
 

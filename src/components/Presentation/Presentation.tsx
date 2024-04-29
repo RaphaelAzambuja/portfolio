@@ -63,13 +63,15 @@ export default function Presentation() {
   }, [currentPhraseIndex]);
   return (
     <>
-      <h1 className="title">Raphael Azambuja</h1>
+    <main className="w-100 d-flex flex-column align-items-center text-center py-5 my-5">
+      <h1 className="w-80 text-center mt-5">Raphael Azambuja</h1>
       <h2 className="phrase">{displayedPhrase}</h2>
-      <p>
+      <p className="col-8 mt-5">
         Sou um jovem desenvolvedor que produz soluções com qualidade, 
         elegância e simplicidade com o objetivo de proporcionar uma ótima 
         experiência e encantar os usuários.
       </p>
+    </main>
     </>
   )
 }
