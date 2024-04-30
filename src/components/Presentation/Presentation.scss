@@ -1,6 +1,10 @@
 @import '../../app/globals.scss';
 
 .phrase {
+  color: $color-10;
+}
+
+.phrase {
   height: 40px;
   border-right: 2px solid;
   animation: blinkCursor 0.8s infinite;
