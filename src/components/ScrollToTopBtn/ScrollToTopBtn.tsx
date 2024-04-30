@@ -1,3 +1,5 @@
+'use client'
+
 import { SlArrowUp } from "react-icons/sl";
 import  "./ScrollToTopBtn.scss";
 

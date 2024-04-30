@@ -1,14 +1,17 @@
-@import '../../index.scss';
+@import '../../app/globals.scss';
 
 .to-top-button-main {
   width: fit-content;
   position: fixed;
-  left: 93%;
+  right: 30px;
   top: 85%;
 
   .to-top-btn {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
+    background: $color-30;
+    border: none;
+    color: $color-60;
   }
 }
