@@ -1,7 +1,7 @@
 'use client'
 
-import "./ServiceBox.scss";
 import React, { useEffect, useState } from "react";
+import "./ServiceBox.scss";
 
 export default function ServicesBox() {
   const services = [
@@ -30,7 +30,7 @@ export default function ServicesBox() {
       <div className={`d-flex align-items-center justify-content-center ${isSmallScreen ? 'flex-column' : 'gap-3'}`}>
         {services.map((service, index) => (
           <div className={`d-flex flex-column justify-content-center align-items-center text-center shadow w-${isSmallScreen ? '75' : '25'} border bg-white rounded${isSmallScreen ? ' mb-3' : ''}`} key={index}>
-            <div className="name rounded px-2">{service.name}</div>
+            <div className="box rounded px-2">{service.name}</div>
             <p>{service.description}</p>
           </div>
         ))}
