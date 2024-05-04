@@ -23,7 +23,7 @@ p {
   color: $color-10;
 }
 
-a {
+li, a {
   color: $color-10;
   text-decoration: none;
   font-weight: 500;
@@ -33,4 +33,10 @@ a {
     background: $color-60;
     cursor: pointer;
   }
+}
+  
+.active {
+  color: $color-30;
+  background: $color-60;
+  cursor: pointer;
 }

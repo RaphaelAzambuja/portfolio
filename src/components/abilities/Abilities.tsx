@@ -27,7 +27,7 @@ export default function Abilities() {
 
   return (
     <>
-      <main className='d-flex flex-column justify-content-center align-items-center text-center my-5 py-5 bg-white'>
+      <main id='abilities' className='d-flex flex-column justify-content-center align-items-center text-center my-5 py-5 bg-white'>
         <h2 className='mt-5'>Um bom desenvolvedor utiliza ótimas ferramentas.</h2>
         <p>Possuo conhecimento em diversas tecnologias.</p>
 

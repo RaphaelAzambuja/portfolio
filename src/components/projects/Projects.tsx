@@ -23,7 +23,7 @@ export default function Projects() {
 
   return (
     <>
-      <main className='d-flex flex-column justify-content-center align-items-center text-center pb-5 my-5'>
+      <main id='projects' className='d-flex flex-column justify-content-center align-items-center text-center pb-5 my-5'>
         <h2 className='mt-5'>Nem só de ferramentas viverá o produto!</h2>
         <p>Em projetos pessoais amplio meus conhecimentos conceituais.</p>
 

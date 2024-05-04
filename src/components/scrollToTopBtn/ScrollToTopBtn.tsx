@@ -13,7 +13,7 @@ export default function ScrollToTopBtn (){
 
   return (
     <>
-      <main className="to-top-button-main">
+      <main className="to-top-button-main ">
         <button className="to-top-btn" onClick={ScrollToTop}>
           <SlArrowUp />
         </button>
