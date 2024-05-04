@@ -66,7 +66,7 @@ export default function Presentation() {
     <main className="w-100 d-flex flex-column align-items-center text-center py-5 my-5">
       <h1 className="w-80 text-center mt-5">Raphael Azambuja</h1>
       <h3 className="phrase">{displayedPhrase}</h3>
-      <p className="mt-5">
+      <p className="mt-5 col-8">
         Sou um jovem desenvolvedor que produz soluções com qualidade, 
         elegância e simplicidade com o objetivo de proporcionar uma ótima 
         experiência e encantar os usuários.
