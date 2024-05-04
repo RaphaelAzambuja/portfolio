@@ -23,11 +23,11 @@ export default function Projects() {
 
   return (
     <>
-      <main className='text-center'>
+      <main className='d-flex flex-column justify-content-center align-center text-center'>
         <h2>titulo poggers</h2>
         <p>descrição froggers</p>
 
-        <Carousel activeIndex={index} onSelect={handleSelect} className="carousel-dark slide py-5" data-bs-ride="carousel" data-bs-interval="false">
+        <Carousel activeIndex={index} onSelect={handleSelect} className="col-lg-8 carousel-dark slide py-5 align-self-center" data-bs-ride="carousel" data-bs-interval="false">
           <div className="carousel-inner">
             {values.map((value, i) => (
               <Carousel.Item key={i} className={i === index ? "carousel-item active" : "carousel-item"}>
