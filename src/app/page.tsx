@@ -6,6 +6,7 @@ import Projects from "@/components/Projects/Projects";
 import ScrollToTopBtn from "@/components/ScrollToTopBtn/ScrollToTopBtn";
 import "./globals.scss"
 import Experiences from "@/components/experiences/Experiences";
+import ServicesBox from "@/components/services/ServicesBox";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Abilities />
       <Projects />
       <Experiences />
+      <ServicesBox />
       <ScrollToTopBtn />
       <Footer />
     </>

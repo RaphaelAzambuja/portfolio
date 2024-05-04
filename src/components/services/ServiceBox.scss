@@ -1,0 +1,9 @@
+@import '../../app/globals.scss';
+
+.name {
+  width: fit-content;
+  height: 25px;
+  background: $color-30;
+  color: $color-60;
+  transform: translateY(-10px);
+}
