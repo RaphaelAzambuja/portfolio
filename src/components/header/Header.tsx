@@ -72,7 +72,7 @@ export default function Header() {
 								<li className={`px-1 py-1 fs-5 rounded ${activeMenuItem === 'abilities' ? 'active' : ''}`} onClick={() => scrollToAnchor("abilities")}>Ferramentas</li>
 								<li className={`px-1 py-1 fs-5 rounded ${activeMenuItem === 'projects' ? 'active' : ''}`} onClick={() => scrollToAnchor("projects")}>Projetos</li>
 								<li className={`px-1 py-1 fs-5 rounded ${activeMenuItem === 'experiences' ? 'active' : ''}`} onClick={() => scrollToAnchor("experiences")}>Experiências</li>
-								<li className={`px-1 py-1 fs-5 rounded ${activeMenuItem === 'services' ? 'active' : ''}`} onClick={() => scrollToAnchor("services")}>Serviços</li>
+								<li className={`px-1 py-1 fs-5 rounded ${activeMenuItem === 'services' ? 'active' : ''}`} onClick={() => scrollToAnchor("services")}>Competências</li>
 								{/* <li className={`px-3 py-1 fs-5 rounded ${activeMenuItem === 'contato' ? 'active' : ''}`} onClick={() => scrollToAnchor("contato")}>Contato</li> */}
 							</ul>
 						</div>
